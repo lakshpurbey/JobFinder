@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct JobFinderApp: App {
+    
+    let container = DIContainer.shared
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            JobListView(
+                    viewModel: JobListViewModel(
+                    repository: container.jobRepository
+                    )
+                )
         }
     }
 }

@@ -1,0 +1,60 @@
+[
+  { "id": "1", "title": "iOS Engineer", "company": "Apple", "location": "Cupertino, USA", "salary_min": 120000, "salary_max": 180000, "description": "Build and maintain core iOS system applications." },
+  { "id": "2", "title": "Senior iOS Developer", "company": "Google", "location": "Mountain View, USA", "salary_min": 130000, "salary_max": 190000, "description": "Work on scalable iOS products." },
+  { "id": "3", "title": "Mobile Engineer", "company": "Meta", "location": "Menlo Park, USA", "salary_min": 125000, "salary_max": 185000, "description": "Develop social media mobile experiences." },
+  { "id": "4", "title": "iOS Developer", "company": "Amazon", "location": "Seattle, USA", "salary_min": 110000, "salary_max": 170000, "description": "Build Amazon shopping app features." },
+  { "id": "5", "title": "Senior iOS Engineer", "company": "Netflix", "location": "Los Gatos, USA", "salary_min": 140000, "salary_max": 200000, "description": "Improve streaming mobile experience." },
+  { "id": "6", "title": "Junior iOS Developer", "company": "StartupX", "location": "Remote", "salary_min": 60000, "salary_max": 90000, "description": "Work on MVP iOS applications." },
+  { "id": "7", "title": "iOS Engineer", "company": "Spotify", "location": "Stockholm", "salary_min": 100000, "salary_max": 150000, "description": "Music streaming mobile features." },
+  { "id": "8", "title": "Mobile Engineer", "company": "Uber", "location": "San Francisco", "salary_min": 135000, "salary_max": 195000, "description": "Ride-sharing mobile systems." },
+  { "id": "9", "title": "iOS Developer", "company": "Airbnb", "location": "San Francisco", "salary_min": 130000, "salary_max": 190000, "description": "Travel booking mobile apps." },
+  { "id": "10", "title": "Mobile App Engineer", "company": "Tesla", "location": "Austin", "salary_min": 120000, "salary_max": 180000, "description": "Tesla mobile ecosystem apps." },
+
+  { "id": "11", "title": "iOS Engineer", "company": "Adobe", "location": "San Jose", "salary_min": 115000, "salary_max": 175000, "description": "Creative mobile tools." },
+  { "id": "12", "title": "Mobile Developer", "company": "Microsoft", "location": "Redmond", "salary_min": 125000, "salary_max": 185000, "description": "Windows mobile apps." },
+  { "id": "13", "title": "iOS Engineer", "company": "Snapchat", "location": "Los Angeles", "salary_min": 120000, "salary_max": 170000, "description": "Social media features." },
+  { "id": "14", "title": "iOS Developer", "company": "X (Twitter)", "location": "San Francisco", "salary_min": 110000, "salary_max": 160000, "description": "Real-time feeds." },
+  { "id": "15", "title": "Mobile Engineer", "company": "LinkedIn", "location": "Sunnyvale", "salary_min": 125000, "salary_max": 180000, "description": "Professional networking apps." },
+
+  { "id": "16", "title": "iOS Engineer", "company": "PayPal", "location": "Remote", "salary_min": 100000, "salary_max": 150000, "description": "Payment systems apps." },
+  { "id": "17", "title": "Mobile Developer", "company": "Stripe", "location": "San Francisco", "salary_min": 140000, "salary_max": 200000, "description": "Financial APIs mobile apps." },
+  { "id": "18", "title": "iOS Developer", "company": "Shopify", "location": "Canada", "salary_min": 110000, "salary_max": 160000, "description": "E-commerce apps." },
+  { "id": "19", "title": "Mobile Engineer", "company": "Zoom", "location": "Remote", "salary_min": 120000, "salary_max": 170000, "description": "Video calling apps." },
+  { "id": "20", "title": "iOS Engineer", "company": "Slack", "location": "San Francisco", "salary_min": 125000, "salary_max": 175000, "description": "Team communication apps." },
+
+  { "id": "21", "title": "iOS Developer", "company": "Pinterest", "location": "San Francisco", "salary_min": 115000, "salary_max": 165000, "description": "Visual discovery apps." },
+  { "id": "22", "title": "Mobile Engineer", "company": "GitHub", "location": "Remote", "salary_min": 130000, "salary_max": 180000, "description": "Developer tools mobile apps." },
+  { "id": "23", "title": "iOS Engineer", "company": "Notion", "location": "Remote", "salary_min": 120000, "salary_max": 170000, "description": "Productivity apps." },
+  { "id": "24", "title": "Mobile Developer", "company": "Figma", "location": "San Francisco", "salary_min": 135000, "salary_max": 190000, "description": "Design collaboration apps." },
+  { "id": "25", "title": "iOS Engineer", "company": "Discord", "location": "Remote", "salary_min": 125000, "salary_max": 175000, "description": "Community chat apps." },
+
+  { "id": "26", "title": "Mobile Engineer", "company": "Dropbox", "location": "San Francisco", "salary_min": 115000, "salary_max": 165000, "description": "Cloud storage apps." },
+  { "id": "27", "title": "iOS Developer", "company": "Reddit", "location": "Remote", "salary_min": 110000, "salary_max": 160000, "description": "Community discussion apps." },
+  { "id": "28", "title": "iOS Engineer", "company": "YouTube", "location": "San Bruno", "salary_min": 140000, "salary_max": 200000, "description": "Video platform apps." },
+  { "id": "29", "title": "Mobile Developer", "company": "Pinterest", "location": "Remote", "salary_min": 120000, "salary_max": 170000, "description": "Content discovery apps." },
+  { "id": "30", "title": "iOS Engineer", "company": "Robinhood", "location": "Menlo Park", "salary_min": 130000, "salary_max": 190000, "description": "Trading mobile apps." },
+
+  { "id": "31", "title": "Mobile Engineer", "company": "Coinbase", "location": "Remote", "salary_min": 140000, "salary_max": 210000, "description": "Crypto trading apps." },
+  { "id": "32", "title": "iOS Developer", "company": "Uber Eats", "location": "San Francisco", "salary_min": 120000, "salary_max": 175000, "description": "Food delivery apps." },
+  { "id": "33", "title": "iOS Engineer", "company": "DoorDash", "location": "San Francisco", "salary_min": 125000, "salary_max": 180000, "description": "Delivery platform apps." },
+  { "id": "34", "title": "Mobile Developer", "company": "Instacart", "location": "Remote", "salary_min": 115000, "salary_max": 165000, "description": "Grocery delivery apps." },
+  { "id": "35", "title": "iOS Engineer", "company": "Lyft", "location": "San Francisco", "salary_min": 120000, "salary_max": 175000, "description": "Ride sharing apps." },
+
+  { "id": "36", "title": "Mobile Engineer", "company": "Bumble", "location": "Remote", "salary_min": 110000, "salary_max": 160000, "description": "Dating apps." },
+  { "id": "37", "title": "iOS Developer", "company": "Tinder", "location": "Los Angeles", "salary_min": 115000, "salary_max": 165000, "description": "Social dating apps." },
+  { "id": "38", "title": "iOS Engineer", "company": "Hulu", "location": "Santa Monica", "salary_min": 130000, "salary_max": 180000, "description": "Streaming apps." },
+  { "id": "39", "title": "Mobile Developer", "company": "Disney", "location": "Burbank", "salary_min": 135000, "salary_max": 190000, "description": "Entertainment apps." },
+  { "id": "40", "title": "iOS Engineer", "company": "HBO Max", "location": "Remote", "salary_min": 125000, "salary_max": 175000, "description": "Streaming platform apps." },
+
+  { "id": "41", "title": "Mobile Engineer", "company": "Duolingo", "location": "Remote", "salary_min": 110000, "salary_max": 160000, "description": "Language learning apps." },
+  { "id": "42", "title": "iOS Developer", "company": "Coursera", "location": "Remote", "salary_min": 115000, "salary_max": 165000, "description": "Online learning apps." },
+  { "id": "43", "title": "iOS Engineer", "company": "Udemy", "location": "Remote", "salary_min": 110000, "salary_max": 160000, "description": "Education platforms." },
+  { "id": "44", "title": "Mobile Developer", "company": "Khan Academy", "location": "Remote", "salary_min": 100000, "salary_max": 150000, "description": "Free learning apps." },
+  { "id": "45", "title": "iOS Engineer", "company": "BYJU'S", "location": "India", "salary_min": 90000, "salary_max": 140000, "description": "EdTech mobile apps." },
+
+  { "id": "46", "title": "Mobile Engineer", "company": "Paytm", "location": "India", "salary_min": 80000, "salary_max": 130000, "description": "Fintech apps." },
+  { "id": "47", "title": "iOS Developer", "company": "PhonePe", "location": "India", "salary_min": 85000, "salary_max": 135000, "description": "Payment apps." },
+  { "id": "48", "title": "iOS Engineer", "company": "Swiggy", "location": "India", "salary_min": 90000, "salary_max": 140000, "description": "Food delivery apps." },
+  { "id": "49", "title": "Mobile Developer", "company": "Zomato", "location": "India", "salary_min": 90000, "salary_max": 140000, "description": "Restaurant apps." },
+  { "id": "50", "title": "iOS Engineer", "company": "Ola", "location": "India", "salary_min": 85000, "salary_max": 135000, "description": "Mobility apps." }
+]
