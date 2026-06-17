@@ -29,9 +29,28 @@
 		A358FFC32FE1780A00CFB048 /* JobFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A358000F2FE1A90700CFB048 /* Exceptions for "JobFinder" folder in "JobFinderTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/Network/APIClientProtocol.swift,
+				Core/Network/Endpoint.swift,
+				Core/Network/NetworkError.swift,
+				Data/DTO/JobDTO.swift,
+				Data/Model/Job.swift,
+				Data/Repository/JobRepository.swift,
+				Data/Repository/JobRepositoryImpl.swift,
+			);
+			target = A358FFB82FE1780A00CFB048 /* JobFinderTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A358FFAE2FE1780600CFB048 /* JobFinder */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A358000F2FE1A90700CFB048 /* Exceptions for "JobFinder" folder in "JobFinderTests" target */,
+			);
 			path = JobFinder;
 			sourceTree = "<group>";
 		};
