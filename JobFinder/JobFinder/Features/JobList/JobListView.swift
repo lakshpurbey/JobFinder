@@ -35,11 +35,24 @@ struct JobListView: View {
             ProgressView("Loading...")
             
         case .empty:
-            Text("No jobs found")
+            VStack(spacing: 12) {
+                Image(systemName: "magnifyingglass")
+                    .font(.largeTitle)
+                    .foregroundColor(.gray)
+                Text("No jobs found")
+                    .foregroundColor(.gray)
+
+            }
             
         case .error(let message):
-            Text("Error: \(message)")
-            
+            VStack(spacing: 12) {
+                     Image(systemName: "exclamationmark.triangle")
+                         .foregroundColor(.red)
+
+                     Text(message)
+                         .multilineTextAlignment(.center)
+                         .foregroundColor(.red)
+                 }
         case .loaded(let jobs):
             List(jobs) { job in
 
@@ -53,8 +66,8 @@ struct JobListView: View {
 
                     JobRowView(job: job)
                 }
-
             }
+
         }
     }
     

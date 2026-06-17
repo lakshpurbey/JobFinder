@@ -24,8 +24,11 @@ final class JobListViewModel: ObservableObject {
     private let repository: JobRepository
     private var allJobs: [Job] = []
     
-    init(repository: JobRepository) {
+    private let searchService: JobSearchService
+    
+    init(repository: JobRepository, searchService: JobSearchService) {
         self.repository = repository
+        self.searchService = searchService
     }
     
     func fetchJobs() async {
@@ -42,15 +45,8 @@ final class JobListViewModel: ObservableObject {
     }
     
     func search(query: String) {
-        guard !query.isEmpty else {
-            state = .loaded(allJobs)
-            return
-        }
-        
-        let filtered = allJobs.filter {
-            $0.title.localizedCaseInsensitiveContains(query) ||
-            $0.company.localizedCaseInsensitiveContains(query)
-        }
+
+        let filtered = searchService.filter(jobs: allJobs, query: query)
         
         state = filtered.isEmpty ? .empty : .loaded(filtered)
     }

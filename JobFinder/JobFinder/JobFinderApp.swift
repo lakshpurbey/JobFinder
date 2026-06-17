@@ -16,7 +16,7 @@ struct JobFinderApp: App {
         WindowGroup {
             JobListView(
                     viewModel: JobListViewModel(
-                    repository: container.jobRepository
+                        repository: container.jobRepository, searchService: JobSearchServiceImpl()
                     )
                 )
         }
