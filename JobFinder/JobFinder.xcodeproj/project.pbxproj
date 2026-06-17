@@ -36,7 +36,6 @@
 				Core/Network/APIClientProtocol.swift,
 				Core/Network/Endpoint.swift,
 				Core/Network/NetworkError.swift,
-				Data/Repository/JobSearchService.swift,
 			);
 			target = A358FFB82FE1780A00CFB048 /* JobFinderTests */;
 		};

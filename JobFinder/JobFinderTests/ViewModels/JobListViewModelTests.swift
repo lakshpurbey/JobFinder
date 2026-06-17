@@ -15,6 +15,7 @@ final class JobListViewModelTests: XCTestCase {
     func test_fetchJobs_success_setsLoadedState() async {
 
         let mockRepo = MockJobRepository()
+
         mockRepo.result = .success([
             Job(
                 id: "1",
@@ -26,8 +27,11 @@ final class JobListViewModelTests: XCTestCase {
                 description: "Build iOS apps"
             )
         ])
+        
+        let mockSearchService = MockJobSearchService()
 
-        let vm = JobListViewModel(repository: mockRepo)
+        let vm = JobListViewModel(repository: mockRepo,
+                                  searchService: mockSearchService)
 
         await vm.fetchJobs()
 
@@ -46,7 +50,10 @@ final class JobListViewModelTests: XCTestCase {
         let mockRepo = MockJobRepository()
         mockRepo.result = .success([])
 
-        let vm = JobListViewModel(repository: mockRepo)
+        let mockSearchService = MockJobSearchService()
+
+        let vm = JobListViewModel(repository: mockRepo,
+                                  searchService: mockSearchService)
 
         await vm.fetchJobs()
 
@@ -62,7 +69,10 @@ final class JobListViewModelTests: XCTestCase {
         let mockRepo = MockJobRepository()
         mockRepo.result = .failure(NSError(domain: "Test", code: 500))
 
-        let vm = JobListViewModel(repository: mockRepo)
+        let mockSearchService = MockJobSearchService()
+
+        let vm = JobListViewModel(repository: mockRepo,
+                                  searchService: mockSearchService)
 
         await vm.fetchJobs()
 
@@ -99,7 +109,10 @@ final class JobListViewModelTests: XCTestCase {
             )
         ])
 
-        let vm = JobListViewModel(repository: mockRepo)
+        let mockSearchService = MockJobSearchService()
+
+        let vm = JobListViewModel(repository: mockRepo,
+                                  searchService: mockSearchService)
 
         await vm.fetchJobs()
 
@@ -130,7 +143,10 @@ final class JobListViewModelTests: XCTestCase {
             )
         ])
 
-        let vm = JobListViewModel(repository: mockRepo)
+        let mockSearchService = MockJobSearchService()
+
+        let vm = JobListViewModel(repository: mockRepo,
+                                  searchService: mockSearchService)
 
         await vm.fetchJobs()
 
@@ -160,7 +176,10 @@ final class JobListViewModelTests: XCTestCase {
             )
         ])
 
-        let vm = JobListViewModel(repository: mockRepo)
+        let mockSearchService = MockJobSearchService()
+
+        let vm = JobListViewModel(repository: mockRepo,
+                                  searchService: mockSearchService)
 
         await vm.fetchJobs()
 
