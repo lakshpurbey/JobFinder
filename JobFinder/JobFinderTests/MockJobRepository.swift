@@ -10,15 +10,14 @@ import Foundation
 
 final class MockJobRepository: JobRepository {
 
-    var jobs: [Job] = []
-    var error: Error?
+    var result: Result<[Job], Error> = .success([])
 
     func fetchJobs() async throws -> [Job] {
-
-        if let error {
+        switch result {
+        case .success(let jobs):
+            return jobs
+        case .failure(let error):
             throw error
         }
-
-        return jobs
     }
 }
