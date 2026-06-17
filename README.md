@@ -68,6 +68,8 @@ The application supports:
 
 The application follows MVVM (Model-View-ViewModel) architecture with a layered design inspired by Clean Architecture principles.
 
+```text
+
 ┌────────────────────┐
 │       View         │
 │ SwiftUI Screens    │
@@ -95,8 +97,11 @@ The application follows MVVM (Model-View-ViewModel) architecture with a layered 
 ┌────────────────────┐
 │ JSON / API Source  │
 └────────────────────┘
+```
 
 # Project Structure
+
+```text
 
 JobFinder
 │
@@ -140,6 +145,8 @@ JobFinder
     ├── JobListViewModelTests.swift
     ├── JobRepositoryTests.swift
     └── MockObjects
+    
+    ```
 
 # Architectural Decisions
 
